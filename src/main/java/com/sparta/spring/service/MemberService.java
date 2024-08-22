@@ -3,7 +3,7 @@ package com.sparta.spring.service;
 import com.sparta.spring.dto.*;
 import com.sparta.spring.entity.Member;
 import com.sparta.spring.repository.MemberRepository;
-import jakarta.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
